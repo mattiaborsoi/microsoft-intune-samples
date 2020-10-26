@@ -7,11 +7,11 @@ Find the Meraki Systems Manager Agent in the list of programs, right-click and s
  
 
 If you're unable to remove the agent through the programs list, a script similar to the following may be used from an elevated Command Prompt. Please note: you are deleting files and modifying registry keys at your own risk.
-
+```
 sc stop MerakiPCCAgent
 sc stop MerakiVNCService
-
 sc delete MerakiPCCAgent
 sc delete MerakiVNCService
 rd /s /q "C:\Program Files (x86)\Meraki\"
 reg delete HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Meraki /f
+```
