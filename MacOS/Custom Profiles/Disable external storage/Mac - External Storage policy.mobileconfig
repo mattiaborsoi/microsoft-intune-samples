@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Configures Allowed Media settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Allowed Media</string>
+			<key>PayloadIdentifier</key>
+			<string>com.github.erikberglund.ProfileCreator.14DA08D2-4088-402A-B007-436710B2804E.com.apple.systemuiserver.956CF9D1-B6A7-4CD8-A757-51FD0C011E6D</string>
+			<key>PayloadOrganization</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.systemuiserver</string>
+			<key>PayloadUUID</key>
+			<string>956CF9D1-B6A7-4CD8-A757-51FD0C011E6D</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>mount-controls</key>
+			<dict>
+				<key>bd</key>
+				<array>
+					<string>deny</string>
+				</array>
+				<key>blankbd</key>
+				<array>
+					<string>deny</string>
+				</array>
+				<key>blankcd</key>
+				<array>
+					<string>deny</string>
+				</array>
+				<key>blankdvd</key>
+				<array>
+					<string>deny</string>
+				</array>
+				<key>cd</key>
+				<array>
+					<string>deny</string>
+				</array>
+				<key>disk-image</key>
+				<array>
+					<string>deny</string>
+				</array>
+				<key>dvd</key>
+				<array>
+					<string>deny</string>
+				</array>
+				<key>dvdram</key>
+				<array>
+					<string>deny</string>
+				</array>
+				<key>harddisk-external</key>
+				<array>
+					<string>deny</string>
+				</array>
+				<key>networkdisk</key>
+				<array>
+					<string>deny</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Block usage of external storage devices</string>
+	<key>PayloadDisplayName</key>
+	<string>External Storage policy</string>
+	<key>PayloadIdentifier</key>
+	<string>com.github.erikberglund.ProfileCreator.14DA08D2-4088-402A-B007-436710B2804E</string>
+	<key>PayloadOrganization</key>
+	<string>Divido Financial Services</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>14DA08D2-4088-402A-B007-436710B2804E</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
