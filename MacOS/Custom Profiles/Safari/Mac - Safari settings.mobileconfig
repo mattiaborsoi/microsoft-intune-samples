@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DefaultBrowserPromptingState2</key>
+			<integer>1</integer>
+			<key>HomePage</key>
+			<string>https://www.google.co.uk/chrome/</string>
+			<key>IncludeDevelopMenu</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Safari #1</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.Safari</string>
+			<key>PayloadType</key>
+			<string>com.apple.Safari</string>
+			<key>PayloadUUID</key>
+			<string>3A20F9E1-85C1-49DF-B943-FCB825B41C62</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Sets Safari settings for Divido MacOS devices on Intune</string>
+	<key>PayloadDisplayName</key>
+	<string>Safari</string>
+	<key>PayloadIdentifier</key>
+	<string>com.divido.safari</string>
+	<key>PayloadOrganization</key>
+	<string>Divido Financial Services</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>9CEA81C1-59A6-48B8-ABC5-B0D19B86A520</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>TargetDeviceType</key>
+	<integer>5</integer>
+</dict>
+</plist>

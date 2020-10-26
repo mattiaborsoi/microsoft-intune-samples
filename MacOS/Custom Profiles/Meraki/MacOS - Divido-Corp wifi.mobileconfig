@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AutoJoin</key>
+			<true/>
+			<key>CaptiveBypass</key>
+			<false/>
+			<key>EAPClientConfiguration</key>
+			<dict>
+				<key>AcceptEAPTypes</key>
+				<array>
+					<integer>25</integer>
+				</array>
+				<key>OneTimeUserPassword</key>
+				<false/>
+				<key>TLSMaximumVersion</key>
+				<string>1.2</string>
+				<key>UserName</key>
+				<string>REPLACETHEUSERNAMEHERE</string>
+				<key>UserPassword</key>
+				<string>REPLACETHEPASSWORDHERE</string>
+			</dict>
+			<key>EncryptionType</key>
+			<string>WPA</string>
+			<key>HIDDEN_NETWORK</key>
+			<false/>
+			<key>IsHotspot</key>
+			<false/>
+			<key>PayloadDescription</key>
+			<string>Configures Wi-Fi settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Wi-Fi</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.wifi.managed.3E3F2C3A-E4EA-4143-893C-B54E9423D54C</string>
+			<key>PayloadType</key>
+			<string>com.apple.wifi.managed</string>
+			<key>PayloadUUID</key>
+			<string>3E3F2C3A-E4EA-4143-893C-B54E9423D54C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProxyType</key>
+			<string>None</string>
+			<key>SSID_STR</key>
+			<string>REPLACETHESSIDHERE</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Allows devices to connect to Divido's Corporate Wi-Fi</string>
+	<key>PayloadDisplayName</key>
+	<string>Divido Corporate Wi-Fi</string>
+	<key>PayloadIdentifier</key>
+	<string>com.divido.merakiwifi</string>
+	<key>PayloadOrganization</key>
+	<string>Divido Financial Services</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>E7C132FC-5500-405F-A1CF-532B0693AE4E</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

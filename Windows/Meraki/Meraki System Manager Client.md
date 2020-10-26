@@ -1,8 +1,4 @@
-Note: These instructions may differ based on the version of Windows used. For the most accurate instructions on removing a program, please refer to Microsoft Support.
-
-If a Windows 10 management profile is installed, it can be removed from Windows Settings > Accounts > Work Access.
-
- 
+## Remove Meraki System Manager agent from Windows 10 
 
 To uninstall the Systems Manager agent, use the Windows installer available under Systems Manager > Manage > Add Devices in Dashboard. If the installer is not available, the following steps may suffice:
 
